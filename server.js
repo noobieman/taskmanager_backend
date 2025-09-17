@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 
 app.use(cors({
-  origin: 'https://task-manager-omega-sable.vercel.app/', // Or * if testing
+  origin: 'https://task-manager-r5ta27qiw-ecommerces-projects-ac21eac4.vercel.app', // Or * if testing
   credentials: true
 }));
 
