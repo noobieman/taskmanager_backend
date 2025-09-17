@@ -12,10 +12,8 @@ const app = express();
 app.use(cors());
 
 app.use(cors({
-  origin: 'https://task-manager-omega-sable.vercel.app/', // Your Vite frontend URL
-  credentials: true, // Allow cookies/authentication
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+  origin: 'https://task-manager-omega-sable.vercel.app/', // Or * if testing
+  credentials: true
 }));
 
 
